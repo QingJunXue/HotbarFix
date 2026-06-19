@@ -1,0 +1,22 @@
+# ==========================================
+# HotbarFix 配置文件 / Configuration
+# ==========================================
+#
+# default-slot: 玩家进服时热键栏光标所处的槽位
+#               The hotbar slot to select when a player joins.
+#
+# 取值范围 / Valid range: 0 ~ 8
+#   0 = 第 1 格 / Slot 1 (最左 / leftmost)
+#   1 = 第 2 格 / Slot 2
+#   2 = 第 3 格 / Slot 3
+#   3 = 第 4 格 / Slot 4
+#   4 = 第 5 格 / Slot 5 (中间 / middle)
+#   5 = 第 6 格 / Slot 6
+#   6 = 第 7 格 / Slot 7
+#   7 = 第 8 格 / Slot 8
+#   8 = 第 9 格 / Slot 9 (最右 / rightmost)
+#
+# 修改后重启服务器或执行 /hotbarfix reload 生效
+# Restart server or run /hotbarfix reload to apply changes
+
+default-slot: 4

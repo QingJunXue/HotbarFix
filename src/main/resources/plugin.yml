@@ -1,0 +1,18 @@
+name: HotbarFix
+version: "1.1"
+main: com.qingyunxi.hotbarfix.HotbarFix
+api-version: "1.21"
+author: QingJunXue 清云熙
+description: 玩家进服时自动切换热键栏光标到指定槽位 / Auto-select hotbar slot on player join
+website: https://github.com/QingJunXue/HotbarFix
+
+commands:
+  hotbarfix:
+    description: HotbarFix 主命令 / Main command
+    usage: /<command> reload
+    permission: hotbarfix.reload
+
+permissions:
+  hotbarfix.reload:
+    description: 允许重载配置 / Allows reloading config
+    default: op

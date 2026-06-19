@@ -1,0 +1,13 @@
+.gradle/
+build/
+out/
+*.jar
+!*.jar.asm
+.idea/
+*.iml
+target/
+.classpath
+.project
+.settings/
+.vscode/
+*.class
