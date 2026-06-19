@@ -2,7 +2,7 @@ name: HotbarFix
 version: "1.1"
 main: com.qingyunxi.hotbarfix.HotbarFix
 api-version: "1.21"
-author: QingJunXue 清云熙
+author: QingJunXue
 description: 玩家进服时自动切换热键栏光标到指定槽位 / Auto-select hotbar slot on player join
 website: https://github.com/QingJunXue/HotbarFix
 
